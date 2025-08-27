@@ -34,7 +34,7 @@ export const MainLayout = ({
 }: MainLayoutProps) => {
   const metaTitle = `${
     infiniteScrollingView ? "" : page > 0 ? `Page ${page} -` : ""
-  } June Changelog`;
+  } ThinkingEngine更新日志`;
   const timeline = useTimelineStore();
   const { animatePage, setAnimatePage } = useAnimatePageStore();
   const router = useRouter();
@@ -90,14 +90,14 @@ export const MainLayout = ({
           <title>{metaTitle}</title>
           <link rel="icon" href="/favicon.ico" />
           <meta name="title" content={metaTitle} />
-          <meta name="description" content="Discover new updates and improvements to June." />
+          <meta name="description" content="了解ThinkingEngine的最新功能更新和改进。" />
           <meta name="image" content="https://changelog.june.so/social.png" />
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://changelog.june.so" />
           <meta property="og:title" content={metaTitle} />
           <meta
             property="og:description"
-            content="Discover new updates and improvements to June."
+            content="Discover new updates and improvements to ThinkingEngine."
           />
           <meta property="og:image" content="https://changelog.june.so/social.png" />
           <meta name="twitter:card" content="summary_large_image" />
@@ -105,13 +105,13 @@ export const MainLayout = ({
           <meta name="twitter:title" content={metaTitle} />
           <meta
             name="twitter:description"
-            content="Discover new updates and improvements to June."
+            content="Discover new updates and improvements to ThinkingEngine."
           />
           <meta name="twitter:image" content="https://changelog.june.so/social.png" />
           <link
             rel="alternate"
             type="application/rss+xml"
-            title="June Changelog"
+            title="ThinkingEngine更新日志"
             href="https://changelog.june.so/rss.xml"
           />
         </Head>

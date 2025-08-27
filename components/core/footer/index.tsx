@@ -17,59 +17,6 @@ export const Footer = ({ hideCTA = false, className = '' }: FooterProps) => {
         <div className="w-full bg-gradient-to-t from-[#f8f9fa] to-white">
           <div className="max-w-6xl mx-auto px-8 py-16">
             {/* Footer内容区域 */}
-            <div className="grid grid-cols-1 md:grid-cols-5 gap-8 mb-12">
-              {/* 产品列 */}
-              <div>
-                <h3 className="text-lg font-bold text-gray-900 mb-4">产品能力</h3>
-                <ul className="space-y-2">
-                  <li><a href="https://www.thinkingdata.cn/product/ta" className="text-gray-600 hover:text-primary">实时用户行为分析</a></li>
-                  <li><a href="https://www.thinkingdata.cn/product/te" className="text-gray-600 hover:text-primary">一站式精细化运营</a></li>
-                  <li><a href="https://www.thinkingdata.cn/product/cdp" className="text-gray-600 hover:text-primary">数据开发治理平台</a></li>
-                  <li><a href="https://www.thinkingdata.cn/product/sdk" className="text-gray-600 hover:text-primary">自助BI数据可视化</a></li>
-                  <li><a href="https://www.thinkingdata.cn/product/community" className="text-gray-600 hover:text-primary">玩家社区分析平台</a></li>
-                </ul>
-              </div>
-              
-              {/* 解决方案列 */}
-              <div>
-                <h3 className="text-lg font-bold text-gray-900 mb-4">解决方案</h3>
-                <ul className="space-y-2">
-                  <li><a href="https://www.thinkingdata.cn/solution/game" className="text-gray-600 hover:text-primary">全球发行解决方案</a></li>
-                  <li><a href="https://www.thinkingdata.cn/solution/retail" className="text-gray-600 hover:text-primary">研运一体解决方案</a></li>
-                  <li><a href="https://www.thinkingdata.cn/solution/finance" className="text-gray-600 hover:text-primary">降本增效解决方案</a></li>
-                  <li><a href="https://www.thinkingdata.cn/solution/education" className="text-gray-600 hover:text-primary">数据互联解决方案</a></li>
-                </ul>
-              </div>
-              
-              {/* 客户案例列 */}
-              <div>
-                <h3 className="text-lg font-bold text-gray-900 mb-4">客户案例</h3>
-                <ul className="space-y-2">
-                  <li><a href="https://www.thinkingdata.cn/case" className="text-gray-600 hover:text-primary">成功案例</a></li>
-                  <li><a href="https://www.thinkingdata.cn/testimonials" className="text-gray-600 hover:text-primary">客户见证</a></li>
-                </ul>
-              </div>
-              
-              {/* 帮助与支持列 */}
-              <div>
-                <h3 className="text-lg font-bold text-gray-900 mb-4">帮助与支持</h3>
-                <ul className="space-y-2">
-                  <li><a href="https://docs.thinkingdata.cn/" className="text-gray-600 hover:text-primary">使用手册</a></li>
-                  <li><a href="https://docs.thinkingdata.cn/dev" className="text-gray-600 hover:text-primary">开发文档</a></li>
-                </ul>
-              </div>
-              
-              {/* 资源中心列 */}
-              <div>
-                <h3 className="text-lg font-bold text-gray-900 mb-4">资源中心</h3>
-                <ul className="space-y-2">
-                  <li><a href="https://www.thinkingdata.cn/reports" className="text-gray-600 hover:text-primary">报告&白皮书下载</a></li>
-                  <li><a href="https://www.thinkingdata.cn/courses" className="text-gray-600 hover:text-primary">数数课堂</a></li>
-                  <li><a href="https://www.thinkingdata.cn/blog" className="text-gray-600 hover:text-primary">博客文章</a></li>
-                </ul>
-              </div>
-            </div>
-
             {/* 底部分割线和版权信息 */}
             <div className="border-t border-gray-200 pt-8">
               <div className="flex flex-col md:flex-row justify-between items-center">

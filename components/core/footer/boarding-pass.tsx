@@ -12,9 +12,9 @@ export const BoardingPass = ({ hideCTA = false }: FooterProps) => {
     city: string;
     country: string;
   }>({
-    name: 'WTF',
-    city: 'What the f***',
-    country: 'WTF',
+    name: 'YOU ',
+    city: 'Anywhere',
+    country: 'Anywhere',
   });
 
   useEffect(() => {
@@ -40,9 +40,9 @@ export const BoardingPass = ({ hideCTA = false }: FooterProps) => {
         setNearestAirport(data);
       } catch (error) {
         setNearestAirport({
-          name: 'WTF',
-          city: 'What the f***',
-          country: 'WTF',
+          name: 'YOU ',
+          city: 'Anywhere',
+          country: 'Anywhere',
         });
       }
     };
@@ -116,10 +116,6 @@ export const BoardingPass = ({ hideCTA = false }: FooterProps) => {
                 <img className="absolute left-[143px] top-[29px] " src="/footer/plane.svg" alt="Plane" />
                 <div className="absolute left-[213px]">TE</div>
 
-                <div className="relative items-center justify-center hidden xl:flex">
-                  <img className="relative" src="/footer/logo-background.svg" alt="Background" />
-                  <img className="absolute" src="/footer/june-logo-white.svg" alt="customer analytics software" />
-                </div>
               </div>
               <div className="mt-[32px] text-[12px] leading-[14.32px] text-gray-400 flex w-full">
                 <div>FROM</div>
@@ -139,7 +135,7 @@ export const BoardingPass = ({ hideCTA = false }: FooterProps) => {
               <div className="mt-[12px] flex text-[18px] leading-[28px] font-bold h-[60px] w-full items-center border-t-[1px] border-gray-200">
                 <div className="w-[162px] h-full flex items-center">{currentTime}</div>
                 <div className="absolute flex items-center left-[189px] border-l-[1px] border-gray-200 h-[60px] pl-[24px]">
-                  即时响应
+                  实时响应
                 </div>
               </div>
             </div>
