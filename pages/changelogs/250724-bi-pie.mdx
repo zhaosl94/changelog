@@ -1,0 +1,21 @@
+import { MdxLayout } from "components/mdx-layout.tsx";
+
+export const meta = {
+  slug: "250724-bi-pie",
+  publishedAt: "2025-07-24T00:00:00.000Z",
+  title: "仪表盘支持饼图",
+  headerImage: "https://docs-v2.thinkingdata.cn/te-doc/5.0/I70YwMuEfiKXMwkp9yWcgTdZnOg/RilAbXtFVoCOuHxxmVKcrcK3nJc.png",
+  authors: [{"name":"Mood","description":"Rhea产品经理","avatarUrl":"https://youke1.picui.cn/s1/2025/08/25/68ac090db1528.jpeg"}],
+  versions: ["v5.0"],
+  modules: ["BI套件"]
+};
+
+图表组件新增饼图类型，可以直观查看不同类别的占比情况。
+
+export default ({ children, ...rest }) => (
+  <MdxLayout meta={meta} {...rest}>
+    {children}
+  </MdxLayout>
+);
+
+

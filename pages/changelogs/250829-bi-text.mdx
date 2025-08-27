@@ -1,0 +1,25 @@
+import { MdxLayout } from "components/mdx-layout.tsx";
+
+export const meta = {
+  slug: "250829-bi-text",
+  publishedAt: "2025-08-29T00:00:00.000Z",
+  title: "仪表盘支持文本组件",
+  headerImage: "https://youke1.picui.cn/s1/2025/08/27/68ae8b1ceb305.png",
+  authors: [{"name":"Mood","description":"Rhea产品经理","avatarUrl":"https://youke1.picui.cn/s1/2025/08/25/68ac090db1528.jpeg"}],
+  versions: ["v5.0"],
+  modules: ["BI套件"]
+};
+
+通过文本组件，查看者可以更好地理解仪表盘的数据。
+​
+文本组件支持富文本内容，包括：多级标题、加粗或倾斜、字体颜色、字体背景色，您也可以使用有序列表 或者 无序列表 对内容进行结构化。 ​
+
+文本组件也支持调整对齐方式：默认为左对齐，也可以居中对齐或者右对齐。​
+
+除了内容外，您还可以添加 超链接 或 添加图片。
+
+export default ({ children, ...rest }) => (
+  <MdxLayout meta={meta} {...rest}>
+    {children}
+  </MdxLayout>
+);

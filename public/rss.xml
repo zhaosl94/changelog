@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>June Changelog</title>
         <link>https://changelog.june.so</link>
         <description>How June gets better every week</description>
-        <lastBuildDate>Mon, 25 Aug 2025 08:17:21 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 27 Aug 2025 04:36:31 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for June changelog</generator>
         <image>
@@ -14,18 +14,22 @@
         </image>
         <copyright>All rights reserved 2025, June</copyright>
         <item>
-            <title><![CDATA[双轴组合图]]></title>
-            <link>https://changelog.june.so/changelogs/test</link>
-            <guid>https://changelog.june.so/changelogs/test</guid>
-            <pubDate>Fri, 29 Aug 2025 15:35:33 GMT</pubDate>
-            <enclosure url="https://youke1.picui.cn/s1/2025/08/25/68ac090e11817.png" length="0" type="image/png"/>
+            <title><![CDATA[仪表盘支持文本组件]]></title>
+            <link>https://changelog.june.so/changelogs/250829-bi-text</link>
+            <guid>https://changelog.june.so/changelogs/250829-bi-text</guid>
+            <pubDate>Fri, 29 Aug 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[仪表盘支持文本组件]]></description>
+            <content:encoded><![CDATA[仪表盘支持文本组件]]></content:encoded>
+            <enclosure url="https://youke1.picui.cn/s1/2025/08/27/68ae8b1ceb305.png" length="0" type="image/png"/>
         </item>
         <item>
-            <title><![CDATA[Launching June 4.0]]></title>
-            <link>https://changelog.june.so/changelogs/4-0-release</link>
-            <guid>https://changelog.june.so/changelogs/4-0-release</guid>
-            <pubDate>Fri, 28 Jun 2024 09:25:32 GMT</pubDate>
-            <enclosure url="https://june-changelog.s3.eu-central-1.amazonaws.com/4-0-release/header.png" length="0" type="image/png"/>
+            <title><![CDATA[仪表盘支持饼图]]></title>
+            <link>https://changelog.june.so/changelogs/250724-bi-pie</link>
+            <guid>https://changelog.june.so/changelogs/250724-bi-pie</guid>
+            <pubDate>Thu, 24 Jul 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[仪表盘支持饼图]]></description>
+            <content:encoded><![CDATA[仪表盘支持饼图]]></content:encoded>
+            <enclosure url="https://docs-v2.thinkingdata.cn/te-doc/5.0/I70YwMuEfiKXMwkp9yWcgTdZnOg/RilAbXtFVoCOuHxxmVKcrcK3nJc.png" length="0" type="image/png"/>
         </item>
     </channel>
 </rss>

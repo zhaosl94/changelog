@@ -170,10 +170,10 @@ export const MainLayout = ({
                   {!isInBlogPage && (
                     <div className="font-hero flex flex-col items-start w-full gap-2">
                       <h1 className="text-5xl font-hero font-black tracking-tight text-gray-900 sm:text-6xl sm:leading-[75px] text-left">
-                        Changelog
+                        更新日志
                       </h1>
                       <p className="max-w-2xl text-2xl font-hero font-bold leading-8 text-gray-900 text-left">
-                        New features, improvements, and fixes every week
+                          每周发车的新功能、优化, 以及问题修复
                       </p>
                     </div>
                   )}
@@ -193,7 +193,7 @@ export const MainLayout = ({
                   {page === 0 && hasMorePage ? (
                     <Link href={`/page/1#${timeline.view}`}>
                       <Button variant="landingOutline" size="landingLg">
-                        Load more
+                        加载更多
                       </Button>
                     </Link>
                   ) : (
@@ -201,14 +201,14 @@ export const MainLayout = ({
                       {page > 0 && (
                         <Link href={`/page/${page - 1}${"#" + timeline.view}`}>
                           <Button variant="landingOutline" size="landingLg">
-                            Previous page
+                            上一页
                           </Button>
                         </Link>
                       )}
                       {hasMorePage && (
                         <Link href={`/page/${page + 1}${"#" + timeline.view}`}>
                           <Button variant="landingOutline" size="landingLg">
-                            Next page
+                            下一页
                           </Button>
                         </Link>
                       )}

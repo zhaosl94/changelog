@@ -45,13 +45,17 @@ export const generateRssFeed = async () => {
   changelogsMeta.forEach((changelog) => {
     const { title, description, content, publishedAt, slug, headerImage } = changelog;
     const url = `${siteURL}/changelogs/${slug}`;
+    
+    // 确保headerImage是有效的URL或者为空
+    const validHeaderImage = headerImage && (headerImage.startsWith('http') || headerImage.startsWith('https')) ? headerImage : undefined;
+    
     feed.addItem({
       title: title,
       id: url,
       link: url,
-      description: description,
-      content: content,
-      image: headerImage,
+      description: description || title, // 如果没有描述，使用标题
+      content: content || title, // 如果没有内容，使用标题
+      image: validHeaderImage,
       date: new Date(publishedAt),
     });
   });

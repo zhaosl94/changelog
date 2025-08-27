@@ -9,4 +9,6 @@ export interface MdxMeta {
   }[];
   slug: string;
   tags?: string[];
+  versions?: string[];
+  modules?: string[];
 }

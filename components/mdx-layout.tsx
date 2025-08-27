@@ -22,6 +22,7 @@ import {
 import Timeline from './layout/timeline';
 import { MainLayout } from './layout/main-layout';
 import { Contributors } from './core/contributors';
+import { MetaBadges } from './core/badge';
 
 import type { MDXComponents } from "mdx/types";
 const components: MDXComponents = {
@@ -266,12 +267,19 @@ export const MdxLayout = (props: MdxLayoutProps) => {
                   </h2>
                 </Link>
               )}
+              
+              {/* Version and Module Badges */}
+              <MetaBadges 
+                versions={props.meta.versions} 
+                modules={props.meta.modules} 
+              />
             </motion.div>
           </VStack>
           {/* Article content */}
           <motion.div
             initial={{ opacity: 0, y: props.hideLayout ? 0 : 20 }}
             animate={{ opacity: 1, y: 0, transition: { duration: 0.4, delay: 0.2 } }}
+            className="mt-2"
           >
             <div
               className="pb-16 text-lg leading-8 text-gray-700 font-hero"
